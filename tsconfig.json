@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "target": "ES2022",                                  
+    "module": "commonjs",                                    
+    "types": ["node", "cypress"],         
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true,                                      
+    "noImplicitAny": true,                               
+    "strictNullChecks": true,
+    "noImplicitThis": true,                           
+    "alwaysStrict": true,                           
+    "noUnusedLocals": true,                            
+    "noUnusedParameters": true,                        
+    "exactOptionalPropertyTypes": true,               
+    "noFallthroughCasesInSwitch": true,               
+    "noUncheckedIndexedAccess": true,                 
+    "skipLibCheck": true,
+  },
+  "include": ["./index.ts", "on-fail-handler.ts"]
+}
