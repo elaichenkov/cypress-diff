@@ -1,5 +1,7 @@
 # cypress-diff
 
+![cypress-diff](assets/cypress-diff.png)
+
 ## Installation
 
 ```bash
