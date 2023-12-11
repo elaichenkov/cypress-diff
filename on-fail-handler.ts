@@ -26,9 +26,6 @@ export function onFailHandler(error: CypressError, runnable: Runner) {
   if (typeof error.actual === 'object' && error.actual.constructor.name === 'jQuery') throw error;
   if (error.message.includes(' to contain text ')) throw error;
 
-  console.log('error', error);
-  console.log('runnable', runnable);
-
   if (error.name === 'AssertionError') {
     window.top!.document.querySelectorAll('.command-info').forEach((element) => {
       const methodSpan = element.querySelector('.command-method > span');
