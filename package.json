@@ -1,6 +1,6 @@
 {
   "name": "cypress-diff",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The library highlights the difference between the expected and actual values in the Cypress Test Runner UI.",
   "main": "./lib/index.js",
   "scripts": {
