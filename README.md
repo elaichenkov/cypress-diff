@@ -1,5 +1,7 @@
 # cypress-diff
 
+[![npm](https://img.shields.io/npm/dt/cypress-diff)](https://www.npmjs.com/package/cypress-diff)
+
 ![cypress-diff](assets/cypress-diff.png)
 
 ## Installation
