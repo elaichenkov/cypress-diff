@@ -4,6 +4,8 @@
 
 ![cypress-diff](assets/cypress-diff.png)
 
+> Keep in mind that it's still in beta. Please, report any issues you find. Moreover, this library is designed to work with texts and objects.
+
 ## Installation
 
 ```bash
