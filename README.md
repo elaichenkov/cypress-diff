@@ -14,7 +14,7 @@ npm i -D cypress-diff
 
 ## Usage
 
-Add the following line to your `cypress/support/index.js` file:
+Add the following line to your `cypress/support/e2e.js` file:
 
 ### JavaScript
 
