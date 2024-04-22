@@ -30,7 +30,7 @@ export function onFailHandler(error: CypressError, runnable: Runner) {
     window.top!.document.querySelectorAll('.command-info').forEach((element) => {
       const methodSpan = element.querySelector('.command-method > span');
       const messageElement = element.querySelector('.command-message-text');
-      const errorMessage = runnable.commands[runnable.commands.length - 1]!.message;
+      const errorMessage = runnable.commands && runnable.commands[runnable.commands.length - 1].message;
       const unboldedErrorMessage = errorMessage.replaceAll('**', '');
       const unboldedExpectedValueErrorMessage = errorMessage.replace(/\*\*([^*]+)\*\*/, '$1');
       const includesErrorMessage = (message: string) => messageElement?.textContent?.includes(message);
