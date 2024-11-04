@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/elaichenkov/cypress-diff#readme",
   "devDependencies": {
-    "@types/diff": "^5.0.9",
+    "@types/diff": "^6.0.0",
     "cypress": "^13.6.1",
     "release-it": "^17.0.1",
     "typescript": "^5.3.3"
