@@ -36,6 +36,6 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "diff": "^7.0.0"
+    "diff": "^8.0.2"
   }
 }
